@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo">Omkar.G</div>
+
+        <div>
+            <ul class="sec">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="first">
+        <div class="image">
+            <img src="img-5.jpg" class="image-cover">
+        </div>
+        <div class="text">
+            <p class="text-0">Hello I'm</p>
+            <h1 class="text-2">Omkar Gunjote</h1>
+            <p class="text-3">Web Developer</p>
+            <div class="button-class">
+                <button class="btn">Download CV</button>
+            </div>
+            <div id="social-container">
+                <img src="./link.png" alt="My LinkdIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/omkar-gunjote-0118b3294/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BpsaahYywQre2E6Da4q2%2FdQ%3D%3D'">
+
+                <img src="./github-logo.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/account'">
+            </div>
+        </div>  
+    </section>
+    
+    <section id="about">
+        <p class="text-1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="details">
+            <div class="img">
+                <img src="img-5.jpg" class="img-1">
+            </div>
+            <div class="lin">
+                <p class="line1">I am a third-year IT student at Sinhgad College of Engineering in Pune, passionate about web development. My journey in the world of technology has been marked by a consistent pursuit of knowledge and skills. Currently holding an overall CGPA of 7.61, I have dedicated myself to mastering the intricacies of web development, where I thrive on creating innovative and user-friendly solutions.
+                    My academic endeavors are complemented by hands-on experience, allowing me to apply theoretical knowledge to real-world projects. I am adept at translating ideas into functional and visually appealing websites, showcasing my proficiency in HTML, CSS, JavaScript, and other relevant technologies. Eager to stay abreast of industry trends, I am committed to continuous learning and growth in the dynamic field of IT. My goal is to contribute meaningfully to the ever-evolving landscape of web development and make a positive impact through my technical expertise.</p>
+            </div>
+        </div>
+           
+    </section>
+
+    <section id="skills">
+        <h1 class="skill">Skills</h1>
+        <div class="right">
+            <div class="elem"> 
+            </div>
+            <div class="elem1">
+            </div>
+            <div class="elem2">
+            </div>
+            <div class="elem3">
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <h1 class="projects">Project</h1>
+        <div class="elem11">
+            <h4>Netflix CLone</h4>
+        </div>
+        <div class="elem12">
+            <h4>Landing Page</h4>
+        </div>
+        <div class="elem13">
+            <h4>Portfolio</h4>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="cont">Contact Me</h1>
+        <div class="contac">
+            <form>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT"/>
+              </form>
+        </div>
+
+    </section>
+
+    <footer>© Copyright 2024 - Developed by Omkar Gunjote. All right reserved.</footer>
+   
+</body>
+</html>
+
